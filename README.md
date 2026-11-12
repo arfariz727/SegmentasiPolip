@@ -31,7 +31,7 @@ Augmentasi geomteris seperti flip, rotasi, dan affine serta perubahan pencahayaa
 <!-- Isi dari Bagian 2 notebook. Pastikan CEPAT = False untuk hasil akhir. -->
 
 - Dataset: Kvasir-SEG (1000 citra kolonoskopi + mask polip), diperkecil ke 256 × 256 piksel.
-- Data uji: 350 citra (tetap). Data latih: 350 citra per ulangan.
+- Data uji: 350 citra (tetap). Data latih: 175 citra per ulangan.
 - Model: U-Net mini (±0,5 juta parameter), 40 epoch, 5 ulangan per skenario.
 - Dijalankan di: Google Colab T4.
 
