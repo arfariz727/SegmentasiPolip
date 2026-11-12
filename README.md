@@ -17,9 +17,9 @@
 
 | Nama | NIM | Username GitHub | Kontribusi utama |
 |---|---|---|---|
-| ✍️ | ✍️ | ✍️ | ✍️ misal: menjalankan eksperimen, menulis Bagian 3 |
-| ✍️ | ✍️ | ✍️ | ✍️ |
-| ✍️ | ✍️ | ✍️ | ✍️ |
+| Muhamad Fariz Ar Raniri | 123430110 | arfariz727 | ketua tim, menjalankan eksperimen, menulis Bagian 3 |
+| Claudya Ronauli Lumbantoruan | 123430101 | ronauliclaudya23 | ✍️ |
+| Annisa Fauziyyah | 123430008 | annisafauziyah11 |
 
 ## 1. Pertanyaan
 
