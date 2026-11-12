@@ -17,22 +17,23 @@
 
 | Nama | NIM | Username GitHub | Kontribusi utama |
 |---|---|---|---|
-| Muhamad Fariz Ar Raniri | 123430110 | arfariz727 | ketua tim, menjalankan eksperimen dan running google collab, menulis Bagian 3 |
+| Muhamad Fariz Ar Raniri | 123430110 | arfariz727 | ketua tim, menjalankan eksperimen, menulis Bagian 3 |
 | Claudya Ronauli Lumbantoruan | 123430101 | ronauliclaudya23 | ✍️ |
-| Annisa Fauziyyah | 123430008 | annisafauziyah11 |
+| Annisa Fauziyyah | 123430008 | annisafauziyah11 |Anggota 2
 
 ## 1. Pertanyaan
 
 Augmentasi apa yang membantu U-Net menemukan polip pada citra kolonoskopi, dan augmentasi apa yang tidak? Kenapa?
+Augmentasi geomteris seperti flip, rotasi, dan affine serta perubahan pencahayaan seperti brightness dan contrast diperkirakan membantu U-Net karena meniru variasi kondisi pemeriksaan kolonoskopi. Sebaliknya, perubahan hue, saturasi berlebihan, blur, dan deformasi elastis yang terlalu kuat berpotensi mengurangi kemampuan model mengenali karakteristik warna, detail, dan bentuk polip.
 
 ## 2. Data & pengaturan
 
 <!-- Isi dari Bagian 2 notebook. Pastikan CEPAT = False untuk hasil akhir. -->
 
 - Dataset: Kvasir-SEG (1000 citra kolonoskopi + mask polip), diperkecil ke 128 × 128 piksel.
-- Data uji: 350 citra (tetap). Data latih: 10 citra per ulangan.
-- Model: U-Net mini (±0,5 juta parameter), 40 epoch, 3 ulangan per skenario.
-- Dijalankan di: Google Colab T4 
+- Data uji: 200 citra (tetap). Data latih: ✍️ citra per ulangan.
+- Model: U-Net mini (±0,5 juta parameter), ✍️ epoch, ✍️ ulangan per skenario.
+- Dijalankan di: ✍️ (misal: Google Colab T4 / laptop CPU / Mac M1).
 
 ![Contoh data](hasil/contoh_data.png)
 
