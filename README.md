@@ -94,8 +94,9 @@ Dengan demikian, dapat disimpulkan bahwa augmentasi data yang tepat dapat memban
 
 <!-- Siapa mengerjakan apa. Penilaian proses kerja dilihat dari riwayat commit tiap anggota. -->
 
-✍️
-
+1. Muhamad Fariz Ar Raniri: Bertanggung jawab sebagai ketua tim, mengatur pelaksanaan eksperimen, melakukan pengaturan dan pengujian model U-Net, menentukan skenario augmentasi beserta hipotesisnya, serta menganalisis hasil eksperimen yang diperoleh.
+2. Claudya Ronauli Lumbantoruan: Bertanggung jawab dalam penyusunan dan pengelolaan laporan pada README.md, menganalisis peta kesalahan hasil segmentasi serta menyajikan hasil pengujian.
+3. Annisa Fauziyyah: Bertanggung jawab dalam menjelaskan dataset dan pengaturan eksperimen, menyusun pembahasan dan kesimpulan berdasarkan hasil eksperimen, serta membantu pemeriksaan dan penyempurnaan keseluruhan laporan.
 ## 8. Penggunaan AI
 
 <!-- Wajib diisi, walau tidak memakai AI (tulis "Tidak memakai AI").
