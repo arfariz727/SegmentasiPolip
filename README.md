@@ -70,7 +70,13 @@ Contoh augmentasi yang dicoba:
      Pertanyaan pemandu: Polip seperti apa yang sering terlewat (kecil? datar? warna mirip dinding usus?)
      Apa yang sering dikira polip padahal bukan? Apakah augmentasi memperbaiki kasus sulit? -->
 
-✍️
+Berdasarkan peta kesalahan, terlihat bahwa kemampuan model U-Net dalam melakukan segmentasi polip berbeda pada setiap citra. Warna hijau menunjukkan area polip yang berhasil diprediksi dengan benar (true positive), warna merah menunjukkan area yang salah diprediksi sebagai polip (false positive), sedangkan warna biru menunjukkan bagian polip yang tidak berhasil terdeteksi (false negative).
+
+Pada contoh citra pertama, model tanpa augmentasi dan model dengan augmentasi kecerahan serta kontras memperoleh Dice sebesar 0,00. Sementara itu, model dengan augmentasi Flip memperoleh Dice sebesar 0,67. Hal ini menunjukkan bahwa augmentasi Flip membantu model mengenali polip pada citra tersebut. Namun, pada contoh kedua, ketiga skenario masih menunjukkan hasil segmentasi yang kurang baik dengan Dice masing-masing sebesar 0,00; 0,00; dan 0,03.
+
+Pada contoh ketiga, model tanpa augmentasi memperoleh Dice sebesar 0,97, lebih tinggi dibandingkan Flip sebesar 0,74 dan kecerahan serta kontras sebesar 0,92. Hal ini menunjukkan bahwa augmentasi tidak selalu meningkatkan hasil segmentasi. Pada contoh keempat, ketiga skenario memperoleh Dice yang tinggi, yaitu 0,97 untuk tanpa augmentasi, 0,96 untuk Flip, dan 0,98 untuk kecerahan serta kontras.
+
+Secara keseluruhan, peta kesalahan menunjukkan bahwa keberhasilan segmentasi dipengaruhi oleh karakteristik masing-masing citra. Augmentasi Flip dapat membantu pada beberapa citra, tetapi tidak selalu memberikan hasil yang lebih baik. Begitu pula dengan augmentasi kecerahan dan kontras yang belum menunjukkan peningkatan secara konsisten. Hasil ini memperlihatkan bahwa pemilihan teknik augmentasi perlu mempertimbangkan karakteristik visual citra polip agar dapat meningkatkan kemampuan model dalam melakukan segmentasi.
 
 ## 6. Pembahasan & kesimpulan
 
