@@ -84,6 +84,7 @@ Secara keseluruhan, peta kesalahan menunjukkan bahwa keberhasilan segmentasi dip
      asalkan dijelaskan kenapa. Perbedaan kecil (lebih kecil dari simpangan baku) belum tentu berarti. -->
 
 Berdasarkan hasil eksperimen, augmentasi Flip memberikan hasil terbaik dibandingkan skenario tanpa augmentasi maupun augmentasi kecerahan dan kontras. Model dengan augmentasi Flip memperoleh rata-rata Dice sebesar 0,622 ± 0,029 dan IoU sebesar 0,506 ± 0,036. Hasil ini lebih tinggi dibandingkan model tanpa augmentasi yang memperoleh Dice sebesar 0,574 ± 0,033 dan IoU sebesar 0,459 ± 0,027. Dengan demikian, hipotesis awal bahwa augmentasi Flip dapat meningkatkan kemampuan segmentasi polip didukung oleh hasil eksperimen.
+Peningkatan tersebut kemungkinan terjadi karena augmentasi Flip memberikan variasi orientasi citra sehingga model dapat mempelajari karakteristik polip dari berbagai posisi. Hal ini membantu U-Net mengenali polip tanpa terlalu bergantung pada orientasi tertentu dalam citra pelatihan. Namun, peningkatan rata-rata tersebut belum dapat dianggap sebagai bukti peningkatan yang signifikan secara statistik karena eksperimen hanya dilakukan sebanyak lima ulangan.
 
 ## 7. Pembagian kerja
 
