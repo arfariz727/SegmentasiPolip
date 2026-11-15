@@ -44,9 +44,9 @@ Augmentasi geomteris seperti flip, rotasi, dan affine serta perubahan pencahayaa
 
 | Skenario | Augmentasi (kode) | Alasan klinis | Hipotesis: Dice naik/turun/sama? |
 |---|---|---|---|
-| Tanpa augmentasi | — | Pembanding | — |
-| ✍️ | ✍️ `v2....` | ✍️ | ✍️ |
-| ✍️ | ✍️ `v2....` | ✍️ | ✍️ |
+| Tanpa augmentasi | — | Digunakan sebagai pembanding untuk mengetahui kemampuan dasar U-Net tanpa variasi citra tambahan. | — |
+|Flip |`v2.Compose([v2.RandomHorizontalFlip(), v2.RandomVerticalFlip()])` |Orientasi tampilan polip dapat berubah ketika endoskop diputar atau diarahkan dari sudut pandang yang berbeda. Augmentasi flip digunakan untuk melatih model mengenali polip dengan orientasi yang bervariasi.|Diperkirakan meningkat|
+|Kecerahan & kontras|`v2.ColorJitter(brightness=0.3, contrast=0.3)` |Intensitas pencahayaan dan kontras citra dapat berubah akibat perbedaan pencahayaan endoskop, jarak kamera, serta pantulan cahaya pada permukaan mukosa usus.|Diperkirakan meningkat|
 
 Contoh augmentasi yang dicoba:
 
