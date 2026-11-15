@@ -99,10 +99,10 @@ Secara keseluruhan, peta kesalahan menunjukkan bahwa keberhasilan segmentasi dip
 
 Dalam pengerjaan tugas ini, kelompok kami menggunakan ChatGPT sebagai alat bantu selama proses pengerjaan, terutama untuk:
 
-Membantu memahami kode dan cara kerja U-Net pada proses segmentasi polip.
-Mencari ide dan menentukan skenario augmentasi yang digunakan, yaitu Flip serta Kecerahan dan Kontras.
-Membantu mengatasi beberapa kendala saat menjalankan notebook di Google Colab dan mengelola file di GitHub.
-Membantu merapikan penulisan dan dokumentasi pada README.
+- Membantu memahami kode dan cara kerja U-Net pada proses segmentasi polip.
+- Mencari ide dan menentukan skenario augmentasi yang digunakan, yaitu Flip serta Kecerahan dan Kontras.
+- Membantu mengatasi beberapa kendala saat menjalankan notebook di Google Colab dan mengelola file di GitHub.
+- Membantu merapikan penulisan dan dokumentasi pada README.
 
 Penggunaan AI hanya sebagai pendamping selama pengerjaan. Pemilihan skenario, pelaksanaan eksperimen, pengamatan hasil, serta pembahasan dan kesimpulan tetap dilakukan oleh anggota kelompok.
 
