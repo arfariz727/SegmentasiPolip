@@ -17,9 +17,9 @@
 
 | Nama | NIM | Username GitHub | Kontribusi utama |
 |---|---|---|---|
-| Muhamad Fariz Ar Raniri | 123430110 | arfariz727 | Ketua tim, Menjalankan eksperimen,Perancangan augmentasi|
-| Claudya Ronauli Lumbantoruan | 123430101 | ronauliclaudya23 |Membuat Laporan README dan Analisis hasil dan peta kesalahan eksperimen|
-| Annisa Fauziyyah | 123430008 | annisafauziyah11 | Anggota 2 |Membuat Laporan README dan penyusunan pembahasan|
+| Muhamad Fariz Ar Raniri | 123430110 | arfariz727 | Ketua tim, pelaksanaan eksperimen, dan perancangan augmentasi |
+| Claudya Ronauli Lumbantoruan | 123430101 | ronauliclaudya23 | Penyusunan laporan dan dokumentasi hasil eksperimen |
+| Annisa Fauziyyah | 123430008 | annisafauziyah11 | Analisis hasil segmentasi dan penyusunan pembahasan |
 
 ## 1. Pertanyaan
 
