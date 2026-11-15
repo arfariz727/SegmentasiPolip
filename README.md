@@ -112,4 +112,12 @@ Atau buka notebook di Google Colab (Runtime → Change runtime type → T4 GPU).
 
 - Jha, D., dkk. (2020). Kvasir-SEG: A Segmented Polyp Dataset. *MultiMedia Modeling (MMM 2020)*, 451–462.
 - Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. *MICCAI*. arXiv:1505.04597.
-- ✍️ tambahkan referensi lain yang kalian pakai
+- - Chen, S., Urban, G., & Baldi, P. (2022). Weakly Supervised Polyp Segmentation in Colonoscopy Images Using Deep Neural Networks. *Journal of Imaging, 8*(5), 121. [DOI](https://doi.org/10.3390/jimaging8050121) | 
+
+- Mohapatra, S., Pati, G. K., Mishra, M., & Swarnkar, T. (2022). UPolySeg: A U-Net-Based Polyp Segmentation Network Using Colonoscopy Images. *Gastroenterology Insights, 13*(3), 264–274. [DOI](https://doi.org/10.3390/gastroent13030027) | 
+
+- Ali, S., et al. (2024). Assessing generalisability of deep learning-based polyp detection and segmentation methods through a computer vision challenge. *Scientific Reports, 14*, 2032. [DOI](https://doi.org/10.1038/s41598-024-52063-x) | 
+
+- Tudela, Y., et al. (2024). A complete benchmark for polyp detection, segmentation and classification in colonoscopy images. *Frontiers in Oncology, 14*, 1417862. [DOI](https://doi.org/10.3389/fonc.2024.1417862) | 
+
+- Mei, J., et al. (2025). A survey on deep learning for polyp segmentation: techniques, challenges and future trends. *Visual Intelligence, 3*, Article 1. [DOI](https://doi.org/10.1007/s44267-024-00071-w) |
