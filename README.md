@@ -54,10 +54,11 @@ Contoh augmentasi yang dicoba:
 <!-- Ganti nama file sesuai skenario kalian (lihat isi folder hasil/). -->
 
 ## 4. Hasil
-
-<!-- Tempel isi hasil/ringkasan.md di sini. -->
-
-✍️ tempel tabel dari `hasil/ringkasan.md`
+|Skenario | Dice (rata-rata ± sb) | IoU (rata-rata ± sb) | Dice tiap ulangan |
+|---|---|---|---|
+| Tanpa augmentasi | 0.574 ± 0.033 | 0.459 ± 0.027 | 0.613, 0.535, 0.571, 0.609, 0.540 |
+| Flip | 0.622 ± 0.029 | 0.506 ± 0.036 | 0.603, 0.649, 0.595, 0.598, 0.664 |
+| Kecerahan & kontras | 0.521 ± 0.089 | 0.410 ± 0.076 | 0.571, 0.355, 0.524, 0.538, 0.615|
 
 ![Perbandingan Dice](hasil/perbandingan.png)
 
